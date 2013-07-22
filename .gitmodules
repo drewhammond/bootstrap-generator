@@ -1,0 +1,12 @@
+[submodule "lib/torophp"]
+	path = lib/torophp
+	url = https://github.com/anandkunal/ToroPHP.git
+[submodule "lib/php-template"]
+	path = lib/php-template
+	url = https://github.com/lsolesen/php-template.git
+[submodule "lib/lessphp"]
+	path = lib/lessphp
+	url = https://github.com/leafo/lessphp.git
+[submodule "lib/bootstrap/2.3.2"]
+	path = lib/bootstrap/2.3.2
+	url = https://github.com/twitter/bootstrap.git
