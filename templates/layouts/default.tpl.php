@@ -23,7 +23,7 @@
           <div class="collapse nav-collapse">
             <ul class="nav pull-left">
               <li><a href="/">Home</a></li>
-              <li><a href="/generate">Generate</a></li>
+              <li><a href="/themes/generate">Generate Theme</a></li>
             </ul>
             <ul class="nav pull-right">
               <li><a href="/login">Login</a></li>
@@ -33,14 +33,15 @@
         </div>
       </div>
     </div>
-    <div class="container main-wrapper">
-      <section role="main">
+    <div class="container">
+      <section class="main-wrapper" role="main">
 <?php echo $content_for_layout; ?>
       </section>
     </div>
     <footer class="footer" role="contentinfo">
       <div class="container">
-        <p>Developed by <a href="http://www.martinbean.co.uk/" rel="external">Martin Bean</a> and licensed under the <a href="http://opensource.org/licenses/MIT" rel="external">MIT License</a></p>
+        <p>Bootstrap Generator developed by <a href="http://www.martinbean.co.uk/" rel="external">Martin Bean</a>.</p>
+        <p>&copy; <?php echo date('Y'); ?> Martin Bean. All rights reserved.</p>
         <ul class="footer-links">
           <li><a href="https://github.com/martinbean/bootstrap-generator" rel="external">GitHub project</a></li>
           <li class="muted">&middot;</li>
@@ -50,5 +51,6 @@
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/application.js"></script>
   </body>
 </html>
