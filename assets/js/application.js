@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $('#customize').on('submit', function(e) {
         e.preventDefault();
+        // actually sent variables to Bootstrap server
     });
     
     $('#customize').find('.btn-toggle').on('click', function(e) {

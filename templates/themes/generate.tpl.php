@@ -65,7 +65,7 @@
           </fieldset>
           <fieldset id="download">
             <h2>Download</h2>
-            <input type="submit" name="download" value="Customize &amp; Download" class="btn btn-block btn-large btn-primary" />
+            <input type="submit" name="download" value="Customize &amp; Download" class="btn btn-block btn-mega btn-primary" />
             <div class="muted">
               <h4>What&rsquo;s included?</h4>
               <p>Downloads include compiled CSS, compiled and minified CSS, and compiled jQuery plugins; all nicely packed up into a zipball for your convenience.</p>
